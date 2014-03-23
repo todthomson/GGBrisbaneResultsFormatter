@@ -9,7 +9,7 @@ namespace GGBrisbaneResultsFormatter
     {
         private static void Main(string[] args)
         {
-            const string inputFile = "2014-03-09.event";
+            const string inputFile = "2014-03-18.event";
             string input;
 
             using (var reader = new FileInfo(inputFile).OpenText())
